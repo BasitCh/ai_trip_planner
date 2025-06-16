@@ -1,0 +1,149 @@
+[debug] [2025-03-03T07:37:59.153Z] ----------------------------------------------------------------------
+[debug] [2025-03-03T07:37:59.156Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Omer Hayat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init firestore
+[debug] [2025-03-03T07:37:59.156Z] CLI Version:   13.32.0
+[debug] [2025-03-03T07:37:59.157Z] Platform:      win32
+[debug] [2025-03-03T07:37:59.157Z] Node Version:  v20.16.0
+[debug] [2025-03-03T07:37:59.157Z] Time:          Mon Mar 03 2025 12:37:59 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-03-03T07:37:59.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-03T07:37:59.411Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-03-03T07:37:59.416Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T07:37:59.417Z] > authorizing via signed-in user (omar@mulimobile.com)
+[debug] [2025-03-03T07:37:59.418Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\omar.hayat\projects\mulimobile\travel_hero
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-03T07:38:02.181Z] Using project from CLI flag: travel-hero---dev
+[debug] [2025-03-03T07:38:02.182Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:02.182Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:02.184Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev [none]
+[debug] [2025-03-03T07:38:03.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev 200
+[debug] [2025-03-03T07:38:03.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev {"projectId":"travel-hero---dev","projectNumber":"284822259763","displayName":"Travel Hero - Dev","name":"projects/travel-hero---dev","resources":{"hostingSite":"travel-hero---dev"},"state":"ACTIVE","etag":"1_2b87495f-5014-4ca3-84e9-44e4e61bc264"}
+[info] i  Using project travel-hero---dev (Travel Hero - Dev) 
+[info] 
+=== Firestore Setup
+[debug] [2025-03-03T07:38:03.117Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:03.118Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:03.118Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/firestore.googleapis.com [none]
+[debug] [2025-03-03T07:38:03.118Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/firestore.googleapis.com x-goog-quota-user=projects/travel-hero---dev
+[debug] [2025-03-03T07:38:05.041Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/firestore.googleapis.com 200
+[debug] [2025-03-03T07:38:05.041Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/firestore.googleapis.com [omitted]
+[debug] [2025-03-03T07:38:05.042Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:05.042Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:05.042Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/travel-hero---dev/databases/(default) [none]
+[debug] [2025-03-03T07:38:08.426Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/travel-hero---dev/databases/(default) 200
+[debug] [2025-03-03T07:38:08.426Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/travel-hero---dev/databases/(default) {"name":"projects/travel-hero---dev/databases/(default)","uid":"7cb847f9-7d95-4270-9967-d8f1de79a488","createTime":"2024-12-03T09:40:39.385073Z","updateTime":"2024-12-03T09:40:39.385073Z","locationId":"nam5","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-03-03T06:38:08.542189Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"s","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","etag":"IOi2wOaz7YsDMLOvvN2zpYoD"}
+[debug] [2025-03-03T07:38:08.426Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-03-03T07:38:08.426Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-03-03T07:38:08.426Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T07:38:08.426Z] > authorizing via signed-in user (omar@mulimobile.com)
+[debug] [2025-03-03T07:38:08.427Z] [iam] checking project travel-hero---dev for permissions ["firebase.projects.get"]
+[debug] [2025-03-03T07:38:08.427Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:08.427Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:38:08.427Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions [none]
+[debug] [2025-03-03T07:38:08.427Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions x-goog-quota-user=projects/travel-hero---dev
+[debug] [2025-03-03T07:38:08.427Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-03T07:38:10.157Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions 200
+[debug] [2025-03-03T07:38:10.157Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-03-03T07:43:21.491Z] ----------------------------------------------------------------------
+[debug] [2025-03-03T07:43:21.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Omer Hayat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2025-03-03T07:43:21.498Z] CLI Version:   13.32.0
+[debug] [2025-03-03T07:43:21.498Z] Platform:      win32
+[debug] [2025-03-03T07:43:21.498Z] Node Version:  v20.16.0
+[debug] [2025-03-03T07:43:21.498Z] Time:          Mon Mar 03 2025 12:43:21 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-03-03T07:43:21.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-03T07:43:21.746Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[debug] [2025-03-03T07:43:21.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T07:43:21.752Z] > authorizing via signed-in user (omar@mulimobile.com)
+[debug] [2025-03-03T07:43:21.753Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\omar.hayat\projects\mulimobile\travel_hero
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-03T07:43:30.152Z] Using project from CLI flag: travel-hero---dev
+[debug] [2025-03-03T07:43:30.153Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:30.154Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:30.155Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev [none]
+[debug] [2025-03-03T07:43:31.046Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev 200
+[debug] [2025-03-03T07:43:31.046Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/travel-hero---dev {"projectId":"travel-hero---dev","projectNumber":"284822259763","displayName":"Travel Hero - Dev","name":"projects/travel-hero---dev","resources":{"hostingSite":"travel-hero---dev"},"state":"ACTIVE","etag":"1_2b87495f-5014-4ca3-84e9-44e4e61bc264"}
+[info] i  Using project travel-hero---dev (Travel Hero - Dev) 
+[info] 
+=== Functions Setup
+[debug] [2025-03-03T07:43:31.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-03T07:43:31.055Z] > authorizing via signed-in user (omar@mulimobile.com)
+[debug] [2025-03-03T07:43:31.055Z] [iam] checking project travel-hero---dev for permissions ["firebase.projects.get"]
+[debug] [2025-03-03T07:43:31.055Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:31.055Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:31.056Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions [none]
+[debug] [2025-03-03T07:43:31.056Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions x-goog-quota-user=projects/travel-hero---dev
+[debug] [2025-03-03T07:43:31.056Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-03T07:43:32.768Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions 200
+[debug] [2025-03-03T07:43:32.768Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/travel-hero---dev:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-03-03T07:43:32.769Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:32.769Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:32.770Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:32.770Z] Checked if tokens are valid: true, expires at: 1740990199151
+[debug] [2025-03-03T07:43:32.770Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-03-03T07:43:32.770Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/travel-hero---dev
+[debug] [2025-03-03T07:43:32.772Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-03-03T07:43:32.772Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/travel-hero---dev
+[debug] [2025-03-03T07:43:34.639Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/runtimeconfig.googleapis.com 200
+[debug] [2025-03-03T07:43:34.639Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-03-03T07:43:34.654Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/cloudfunctions.googleapis.com 200
+[debug] [2025-03-03T07:43:34.654Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/travel-hero---dev/services/cloudfunctions.googleapis.com [omitted]
+[info] 
+Detected existing codebase(s): default
+
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[error] Invalid codebase name. Codebase must be less than 64 characters and can contain only lowercase letters, numeric characters, underscores, and dashes.

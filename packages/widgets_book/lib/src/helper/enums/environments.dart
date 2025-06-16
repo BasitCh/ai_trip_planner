@@ -1,0 +1,1 @@
+enum EnvironmentKeys { envName, localWalkerApi }

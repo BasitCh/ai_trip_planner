@@ -1,0 +1,2 @@
+/Users/abdulbasit/Desktop/Flutter Projects/travel_hero/android/app/.cxx/Debug/bp33i6r6/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/abdulbasit/Desktop/Flutter Projects/travel_hero/android/app/.cxx/Debug/bp33i6r6/arm64-v8a/CMakeFiles/rebuild_cache.dir

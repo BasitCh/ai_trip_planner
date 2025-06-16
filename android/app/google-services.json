@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "284822259763",
+    "project_id": "travel-hero---dev",
+    "storage_bucket": "travel-hero---dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284822259763:android:305fa091d2a48543c3bb46",
+        "android_client_info": {
+          "package_name": "com.muli.travelhero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284822259763-676seasubgs4vma7153rnij2vin9ev8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiH_lZaPl0w5gj03G_uqhZu3h7tPjmRD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284822259763-676seasubgs4vma7153rnij2vin9ev8k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "284822259763-8fok611a4q0r79qk23ndnsqe7l11s1mc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.muli.travelhero"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
